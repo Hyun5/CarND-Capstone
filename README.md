@@ -1,16 +1,28 @@
 # Project: System Integration
 Udacity Self-Driving Car Engineer Nanodegree Program
-<img src="gif/CapstoneProject.gif">
 
 ## Overview
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
+<img src="gif/CapstoneProject.gif">
 
 
+### System Architecture Diagram
+<img src="imgs/SystemArchitectureDiagram.PNG">
 
+### Code Structure
 
+#### Traffic Light Detection Node
+(path_to_project_repo)/ros/src/tl_detector/tl_detector.py
+<img src="imgs/tl_detector.PNG">
 
+#### Waypoint Updater Node
+(path_to_project_repo)/ros/src/waypoint_updater/waypoint_updater.py
+<img src="imgs/waypoint_updater.PNG">
 
-
+#### Drive-By-Wire (DBW) Node
+(path_to_project_repo)/ros/src/twist_controller/dbw_node.py
+(path_to_project_repo)/ros/src/twist_controller/twist_controller.py
+<img src="imgs/twist_controller.PNG">
 
 
 ---
