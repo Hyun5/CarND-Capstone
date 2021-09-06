@@ -5,18 +5,18 @@ Udacity Self-Driving Car Engineer Nanodegree Program
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
 
 ## Result
-The vehicle stop stop line when the traffic light is red and start to drivce when it turned to Greed properly. And also. It is able to complete more than one full loop of the track without running off road or any other navigational issues.
+The vehicle stop and go properly depening on the traffic light. And also it is able to complete more than one full loop of the track without running off road or any other navigational issues.
 <img src="gif/CapstoneProject.gif">
 
 ## System Architecture Diagram
-<img src="imgs/SystemArchitectureDiagram.PNG">
 This diagram shows the ROS nodes and topices used in the project.
+<img src="imgs/SystemArchitectureDiagram.PNG">
 
 ### Code Structure
 The basic packages are provided and 4 files are mainly updated to complete the project.
 
 #### Perception
-This node includes the Traffic Light Detection
+This node includes the Traffic Light Detection. 
 (path_to_project_repo)/ros/src/tl_detector/tl_detector.py
 <img src="imgs/tl_detector.PNG">
 
